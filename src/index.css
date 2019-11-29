@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  display:block;
+	justify-content: center;
+  align-items: center; 
+  width: 300px; 
+	height: 300px;
+
+}
+
+.contact-card {
+  flex-basis: 250px;
+  margin: 20px;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-card > h3 {
+  text-align: center;
+}
+
+.contact-card > p {
+  font-size: 12px;
+}
